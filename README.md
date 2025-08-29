@@ -26,3 +26,16 @@ Este programa em **Python** organiza automaticamente arquivos em pastas de acord
    ```bash
    git clone <repo-url>
    cd Pathfinder_FileOrganizerProject
+2. Instale as dependências com o Poetry:
+   ```bash
+   poetry install
+3. Ative o ambiente virtual do Poetry:
+   ```bash
+   poetry shell
+4. Navegue até o arquivo src/main.py e configure o diretório a ser organizado no código:
+   ```bash
+   folder_path = "file_organizer\\src\\folder_to_organize"
+5. Execute o script:
+   ```bash
+   poetry run python file_organizer.py
+6. Ao final da execução, os arquivos estarão organizados em subpastas, separadas por tipo.
