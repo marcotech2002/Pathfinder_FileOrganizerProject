@@ -1,4 +1,4 @@
-# Organizador de arquivos por tipo (.pdf, .docx, .png, etc)
+# Organizador de diretório
 
 Este programa em **Python** organiza automaticamente arquivos em pastas de acordo com sua extensão (por exemplo: `.pdf`, `.docx`, `.png`, etc). Ele facilita a organização de diretórios que possuem muitos arquivos misturados, criando subpastas específicas para cada tipo e movendo os arquivos para seus respectivos locais.  
 
